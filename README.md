@@ -62,3 +62,7 @@ The final step of this time series analysis process is the prediction of the 24 
 According to the predicted values and the confidence interval, we can say, we reach to the best-fitted model for the data sets. Except for two observations which are close to the outer confidence band. the real observation predicted good or even excellent for some observation. The result plots in following figure.
 
 ![plot](assets/prediction.jpeg)
+
+| Male gender |
+|-|
+| Male, or cis Male, means born as male and decide to be male |
