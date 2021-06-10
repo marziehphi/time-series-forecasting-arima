@@ -44,6 +44,13 @@ At first, we separate the data set into two subsets. One part is for the estimat
 we estimate the model with first guess, but also compare it with the other models. the important part of estimation is to choose a model that has a low AIC value, but also has not too many coefficients. The residuals have to be
 white noise with normal distribution.
 
+| Model | AIC | Coefficients | Log Likelihood | Variance |
+|-|-|-|-|-|
+| (2, 0, 0)(0, 1, 1) | 292.41 | ar1 and a12 not sign | -142.20 | 0.4008 |
+| (3, 0, 3)(0, 1, 1) | 289.42 | only ar2 and ma3 sign | -136.71 | 0.3721 |
+| (1, 0, 3)(0, 1, 1) | 286.8 | ar1 not sign | -137.40 | 0.3766 |
+| (0, 1, 3)(0, 1, 1) | 284.94 | all significant | -137.47 | 0.3296 |
+
 After comparing those factors which demonstrate in the table. We can observe a SARIMA(0, 1, 3)(0, 1, 1) model fits best for the underlying data since the model has the best AIC value, and significant coefficients and small variance.
 
 To analysis the residuals of the model, the best way is looking at the ACF and the p-values for Ljung-Box statistic. The residuals seem to be stationary, and
@@ -63,6 +70,4 @@ According to the predicted values and the confidence interval, we can say, we re
 
 ![plot](assets/prediction.jpeg)
 
-| Male gender |
-|-|
-| Male, or cis Male, means born as male and decide to be male |
+
