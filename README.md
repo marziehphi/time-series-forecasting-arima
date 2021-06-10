@@ -12,16 +12,11 @@ The data are chosen from the Time series data library, which represented the num
 
 The problem is fascinating in two specific reasons: First without knowing the size and the composition of the local population, how can local authorities decide how much and what type of essential services to provide? Second: controlling the population by forecasting the number of births in the future. The most challenging part related to number of birth because it could be some absent families or the birth of the child not reported.
 
-![Getting Started](image/time_series.jpg)
+![Getting Started](assets/time_series.png)
 
 
 
 # Dataset and Challenges
-The dataset could be found in kaggle: https://www.kaggle.com/mlg-ulb/creditcardfraud.
-The dataset consists of +200k rows with 20+ features that have gone trough a PCA pipeline. Only time and amount variable contain non transformed features. The dataset is highly imbalanced, there is a lot of normal data in comparison with abnormal data. For instance, 90 percent of data points are included for one class and 10 percent for the other. It caused performance measures (aka standard optimiza-
-tion criteria) not to be as effective.
-
-
 
 ## Notebook
 
