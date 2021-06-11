@@ -71,23 +71,19 @@ According to the predicted values and the confidence interval, we can say, we re
 
 ## Conclusion
 
-The model that fits the best for this time series is a SARIMA $(0, 1, 3)(0, 1, 1)_{12}$ model with the following coefficients.
-
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+The model that fits the best for this time series is a SARIMA <img src="https://render.githubusercontent.com/render/math?math=\(0, 1, 3)(0, 1, 1)_{12}" alt="">  model with the following coefficients.
 
 
-$\theta_{1}$ = -0.0651$ with standard error $0.0931$
+<img src="https://render.githubusercontent.com/render/math?math=\theta_{1} = -0.0651" alt=""> with standard error 0.0931
 
-$\theta_{2} = -0.1849$ with standard error $0.0816$
+<img src="https://render.githubusercontent.com/render/math?math=\theta_{2} = -0.1849" alt=""> with standard error 0.0816
 
-$\theta_{3} = -0.1556$ with standard error $0.0956$
+<img src="https://render.githubusercontent.com/render/math?math=\theta_{3} = -0.1556" alt=""> with standard error 0.0956
 
-$\Theta_{1} = -.9656$ with standard error $0.4127$
+<img src="https://render.githubusercontent.com/render/math?math=\theta_{4} = -0.9656" alt=""> with standard error 0.4127
 
-The residuals are normally distributed with expectation $\mu = 0$ and variance $\sigma^{2} =0.3348774$.
-A comparison of AIC values of different models shown in Table 1. Based on the result, the model with enough coefficients, best AIC, and small variance choose as the preferred model.
-we also plot the AIC values of different models.
-Another positive aspect of the model used in this project is the normal distribution of the residuals.
 
-As a final result of this time series analysis, the number of births increasing during years in almost constant fluctuate At a distance of month steps. 
+The residuals are normally distributed with expectation <img src="https://render.githubusercontent.com/render/math?math=\\mu = 0" alt=""> and variance <img src="https://render.githubusercontent.com/render/math?math=\\sigma^{2} = 0.3348774" alt="">.
+
+A comparison of AIC values of different models shown in  Estimation and verification Table. Based on the result, the model with enough coefficients, best AIC, and small variance choose as the preferred model. we also plot the AIC values of different models. Another positive aspect of the model is, the normal distribution behavior of the residuals.
 
