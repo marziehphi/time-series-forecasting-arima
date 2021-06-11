@@ -73,8 +73,10 @@ According to the predicted values and the confidence interval, we can say, we re
 
 The model that fits the best for this time series is a SARIMA $(0, 1, 3)(0, 1, 1)_{12}$ model with the following coefficients.
 
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
-<img src="https://render.githubusercontent.com/render/math?math=$\theta_{1}$ = -0.0651$ with standard error $0.0931$">
+
+$\theta_{1}$ = -0.0651$ with standard error $0.0931$
 
 $\theta_{2} = -0.1849$ with standard error $0.0816$
 
@@ -89,6 +91,3 @@ Another positive aspect of the model used in this project is the normal distribu
 
 As a final result of this time series analysis, the number of births increasing during years in almost constant fluctuate At a distance of month steps. 
 
-<img src="https://render.githubusercontent.com/render/math?math=$\theta_{1}$ = -0.0651$ with standard error $0.0931$">
-
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
